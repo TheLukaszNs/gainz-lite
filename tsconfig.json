@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "noImplicitAny": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "extends": "expo/tsconfig.base"
+}
