@@ -1,6 +1,6 @@
 import { registerRootComponent } from "expo";
 import { Text } from "react-native";
-import { theme, ThemeContext, ThemeProvider } from "./theme";
+import { theme, ThemeProvider } from "./theme";
 
 const App = () => {
   return (

@@ -1,25 +1,15 @@
 {
   "name": "gainz-lite",
-  "version": "1.0.0",
-  "main": "./src/App.tsx",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
-  "dependencies": {
-    "@react-navigation/native": "^6.1.1",
-    "@types/react": "~18.0.24",
-    "@types/react-native": "~0.70.6",
-    "expo": "~47.0.9",
-    "expo-status-bar": "~1.4.2",
-    "react": "18.1.0",
-    "react-native": "0.70.5",
-    "typescript": "^4.6.3"
-  },
+  "version": "0.1.0",
+  "description": "Gainz!",
+  "author": "Łukasz Myśliwiec <lmysliwiec10@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "turbo": "^1.6.3"
   },
   "private": true
 }
