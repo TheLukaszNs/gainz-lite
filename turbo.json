@@ -4,6 +4,13 @@
     "build": {},
     "deploy": {},
     "dev": {
+      "dependsOn": ["^db:generate"],
+      "cache": false
+    },
+    "db:generate": {
+      "cache": false
+    },
+    "db:push": {
       "cache": false
     }
   }

@@ -4,6 +4,10 @@
   "description": "Gainz!",
   "author": "Łukasz Myśliwiec <lmysliwiec10@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "turbo dev",
+    "db:migrate": "turbo db:generate && cd packages/db && yarn db:migrate"
+  },
   "workspaces": [
     "apps/*",
     "packages/*"
